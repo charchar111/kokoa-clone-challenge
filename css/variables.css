@@ -1,0 +1,12 @@
+:root {
+  --font-guide: 12px;
+  --font-ipt-label: 10px;
+  --font-guide-title: 16px;
+  --font-button: 14px;
+  --font-ipt-text: 14px;
+  --button-height: 48px;
+  --height-ipt-text: 40px;
+  --color-ipt-label: rgba(0, 0, 0, 0.5);
+  --color-text-content: rgba(0, 0, 0, 0.4);
+  --padding-main-left-right: 20px;
+}

@@ -1,0 +1,121 @@
+@import "reset.css";
+@import "variables.css";
+@import "components/status-bar.css";
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  /* overflow: hidden; */
+  height: 800px;
+  background-image: linear-gradient(#e66465, #9198e5);
+}
+
+.main--bg-img {
+}
+
+.blank-space--top {
+  height: 10%;
+}
+
+.login-title {
+  background-size: cover;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.login-title__box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0 30px;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title h1 {
+  text-align: center;
+  font-size: var(--font-guide-title);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.login-title p {
+  text-align: center;
+  font-size: var(--font-guide);
+  line-height: 1.5em;
+}
+
+.login-title__bg {
+  background-image: url("./../img/src-image/login-title2.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+
+  align-self: stretch;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0;
+}
+
+.login-form {
+  padding: 0 var(--padding-main-left-right);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.login-form div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  font-size: var(--font-ipt-label);
+  color: var(--color-ipt-label);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.login-form input[type="text"] {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  align-self: stretch;
+  height: var(--height-ipt-text);
+  font-size: var(--font-ipt-text);
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-main-left-right);
+}
+.login-buttons .login-buttons__btn {
+  border: none;
+  margin-bottom: 8px;
+  padding: 13px 0;
+  font-size: var(--font-button);
+}
+
+.login-buttons div {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-guide);
+  color: var(--color-text-content);
+  margin-top: 10px;
+}
