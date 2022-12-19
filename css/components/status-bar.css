@@ -9,8 +9,9 @@
   position: fixed;
   top: 0px;
   font-size: var(--font-guide);
-  font-weight: 600;
+  /* font-weight: 600; */
   z-index: 1;
+  color: rgba(255, 255, 255, 1);
 }
 
 .status__rows {
